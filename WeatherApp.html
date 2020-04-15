@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+    <title>Weather App Vanilla JS</title>
+   <link rel="stylesheet" type="text/css" href="WeatherApp.css">
+   <script src="WeatherApp.js"></script>
+  </head>
+  <body>
+      <div class="App">
+        <div class="InputForm">
+           <form id="form" onsubmit="onSubmit(event)">
+             <label for="Location">Choose Your Location:</label>
+              <input id="Location" name="Location" type="text" placeholder="input text here" required>
+             <button type="Submit" class="raise">Submit</button>
+           </form>
+        </div>
+        <h1 style="color: Yellow; font-size:50px;">Weather App</h1>
+        
+      </div>
+    </div>
+    </div>
+    <table>
+          <tr> 
+            <th>City</th>
+            <th>TimeZone</th>
+            <th>Description</th>
+            <th>Temp(min)</th>
+            <th>Temp(max)</th>
+            <th>Wind</th>
+          </tr>
+          <tr id="List">
+            
+          </tr>
+     </table>
+    
+     
+        <img style="display: none" id="img" src="" alt="">
+      
+    
+  </body>
+  
+</html>
