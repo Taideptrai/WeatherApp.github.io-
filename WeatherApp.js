@@ -1,9 +1,9 @@
 
 const descriptionArr = 
-  {"Rain":"https://icons.iconarchive.com/icons/large-icons/large-weather/512/rain-icon.png",
-  "Clouds":"https://cdn0.iconfinder.com/data/icons/large-weather-icons/512/Heavy_snow.png",
-  "Mist":"https://cdn0.iconfinder.com/data/icons/large-weather-icons/512/Mist.png",
-  "Clear":"https://lh3.googleusercontent.com/proxy/2qGC9-kzpTTgt-6voppGIEZ6gW12JgfoBkO0Kz-zN0zeheasVpzybxHfGQOMcvPL0Yaa76LEsORErxAdAa1tUuzQP-MIX8-neun9ntgmNnvr02jjvnZ26k60VyXTGc3572VU18KqJ3LRGZIZkP5eAN0CVA"}
+  {"Rain":"img/rain-icon",
+  "Clouds":"img/heavy snow.png",
+  "Mist":"img/Mist.png",
+  "Clear":"img/sun.png"}
 
 const appKey = "e0055af669f38820f089578e064910bc";
 function onSubmit(e){
